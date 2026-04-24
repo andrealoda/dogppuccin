@@ -1,0 +1,60 @@
+{
+  "name": "dogppuccin",
+  "displayName": "Dogppuccin",
+  "description": "A collection of canine-inspired themes for Visual Studio Code, reimagined from Catppuccin with warm, harmonious palettes.",
+  "version": "1.0.0",
+  "publisher": "andrea",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrealoda/dogppuccin"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dogppuccin Latte (Husky)",
+        "uiTheme": "vs",
+        "path": "./themes/dogppuccin-latte.json"
+      },
+      {
+        "label": "Dogppuccin Frappe (Beagle)",
+        "uiTheme": "vs",
+        "path": "./themes/dogppuccin-frappe.json"
+      },
+      {
+        "label": "Dogppuccin Macchiato (Golden Retriever)",
+        "uiTheme": "vs",
+        "path": "./themes/dogppuccin-macchiato.json"
+      },
+      {
+        "label": "Dogppuccin Mocha (German Shepherd)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dogppuccin-mocha.json"
+      }
+    ]
+  },
+  "icon": "branding/dogppuccin-banner.png",
+  "license": "MIT",
+  "keywords": [
+    "theme",
+    "dogppuccin",
+    "catppuccin",
+    "vscode-theme",
+    "dogs",
+    "husky",
+    "beagle",
+    "retriever",
+    "shepherd"
+  ],
+  "galleryBanner": {
+    "color": "#E8DCC2",
+    "theme": "light"
+  },
+  "bugs": {
+    "url": "https://github.com/andrea/dogppuccin/issues"
+  },
+  "homepage": "https://github.com/andrea/dogppuccin#readme"
+}

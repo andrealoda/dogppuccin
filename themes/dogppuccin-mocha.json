@@ -1,0 +1,65 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Dogppuccin Mocha (German Shepherd)",
+  "type": "dark",
+
+  "colors": {
+    "editor.background": "#1E1A17",
+    "editor.foreground": "#E8DCC2",
+    "editorCursor.foreground": "#C48A3A",
+    "editor.selectionBackground": "#4A3B3280",
+    "editor.lineHighlightBackground": "#2E2622",
+    "editorLineNumber.foreground": "#4A3B32",
+    "editorWhitespace.foreground": "#3C2F2A",
+
+    "editorIndentGuide.background1": "#3C2F2A",
+    "editorIndentGuide.background2": "#5A4636",
+    "editorIndentGuide.activeBackground1": "#A46A3D",
+    "editorIndentGuide.activeBackground2": "#C48A3A",
+
+    "sideBar.background": "#2E2622",
+    "sideBar.foreground": "#E8DCC2",
+    "sideBarSectionHeader.background": "#3C2F2A",
+    "sideBarSectionHeader.foreground": "#E8DCC2",
+
+    "activityBar.background": "#4A3B32",
+    "activityBar.foreground": "#E8DCC2",
+    "activityBarBadge.background": "#C48A3A",
+    "activityBarBadge.foreground": "#1E1A17",
+
+    "statusBar.background": "#14110F",
+    "statusBar.foreground": "#E8DCC2",
+
+    "titleBar.activeBackground": "#3C2F2A",
+    "titleBar.activeForeground": "#E8DCC2",
+
+    "button.background": "#A46A3D",
+    "button.foreground": "#1E1A17",
+    "button.hoverBackground": "#8C5E3C",
+
+    "input.background": "#2E2622",
+    "input.foreground": "#E8DCC2",
+    "input.border": "#4A3B32",
+
+    "panel.background": "#1E1A17",
+    "panel.border": "#3C2F2A",
+
+    "terminal.background": "#1E1A17",
+    "terminal.foreground": "#E8DCC2",
+    "terminalCursor.foreground": "#C48A3A",
+
+    "focusBorder": "#C48A3A",
+    "selection.background": "#4A3B3280"
+  },
+
+  "tokenColors": [
+    { "scope": ["comment"], "settings": { "foreground": "#5A4636" } },
+    { "scope": ["keyword", "storage.type"], "settings": { "foreground": "#C48A3A" } },
+    { "scope": ["string"], "settings": { "foreground": "#A46A3D" } },
+    { "scope": ["variable", "identifier"], "settings": { "foreground": "#E8DCC2" } },
+    { "scope": ["constant.numeric"], "settings": { "foreground": "#B88A55" } },
+    { "scope": ["entity.name.function"], "settings": { "foreground": "#C48A3A" } },
+    { "scope": ["entity.name.type"], "settings": { "foreground": "#A46A3D" } },
+    { "scope": ["punctuation"], "settings": { "foreground": "#E8DCC2" } }
+  ]
+}
